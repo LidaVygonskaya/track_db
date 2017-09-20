@@ -1,0 +1,2 @@
+CREATE DATABASE parking OWNER lida;
+

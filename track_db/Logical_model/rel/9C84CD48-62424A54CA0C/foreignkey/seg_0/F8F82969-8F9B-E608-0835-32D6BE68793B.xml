@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8F82969-8F9B-E608-0835-32D6BE68793B" containerWithKeyObject="4914EF41-309D-0775-B707-4650452D92BD" localFKIndex="7E3D65C8-303C-0F7F-00DB-978EEA8DB4CF" name="Car_Parking Place_FK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:39:55 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<referredTableLongName>Parking Place</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1999CB75-5315-F145-FEDF-0D81015ED0B7</referredTableID>
+<keyObject>50438096-911C-A7C5-A45C-DBFE0446B71B</keyObject>
+<referredKeyID>50438096-911C-A7C5-A45C-DBFE0446B71B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
