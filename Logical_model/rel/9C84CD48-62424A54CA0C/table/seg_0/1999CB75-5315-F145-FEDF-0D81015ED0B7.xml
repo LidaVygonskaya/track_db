@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1999CB75-5315-F145-FEDF-0D81015ED0B7" name="Parking Place">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:51:31 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMBER" id="11E7C5E9-FB9F-6BBF-5F93-402B0D52C7FF">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:53:32 UTC</createdTime>
+<commentInRDBMS>Номер места&lt;br/&gt;</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCCUPATED" id="89937CC4-3217-144A-C021-FCA64F59264E">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:53:32 UTC</createdTime>
+<commentInRDBMS>Занято или свободно место</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARRIVAL_DATE" id="BECF9E53-154B-1582-1F9A-814A3936E106">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:53:32 UTC</createdTime>
+<commentInRDBMS>Дата и время заезда автомобиля</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTURE_DATE" id="63B09098-3BAF-D06D-865D-0348BEACB9C9">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:53:32 UTC</createdTime>
+<commentInRDBMS>Дата и время выезда автомобиля</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARIFF" id="2E61FEE4-3858-E70E-70E4-5FA276E2D15D">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:53:32 UTC</createdTime>
+<commentInRDBMS>Тариф</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50438096-911C-A7C5-A45C-DBFE0446B71B" name="Parking Place_PK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:53:32 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11E7C5E9-FB9F-6BBF-5F93-402B0D52C7FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

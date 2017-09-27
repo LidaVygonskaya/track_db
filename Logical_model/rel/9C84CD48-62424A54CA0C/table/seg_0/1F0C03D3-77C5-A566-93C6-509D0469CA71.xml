@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F0C03D3-77C5-A566-93C6-509D0469CA71" name="Staff">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:54:51 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LAST_NAME" id="176A13F9-20E7-460A-879E-9C410A0D4F30">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>Фамилия</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="3A761D68-D2B1-B78A-3D46-CE39859BDF42">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>Имя</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURNAME" id="07F2A92F-1720-BFEC-EE1A-5A716DD68353">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>Отчество</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="BFF3F12A-3148-59D7-F4B0-16B940450B19">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>Номер телефона</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESS" id="06C54F58-B3D1-6986-86ED-2FE469300AE1">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>Адресс</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFF_ID" id="2582ABFF-B0BD-4D91-9FDD-0BA9E5CCA05C">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>ID работника</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSITION" id="3D8B51F3-51B3-4577-258E-FECAB79FE065">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<commentInRDBMS>Должность</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parking Place_NUMBER" id="EF4E9963-0492-D995-2DE8-B418DA6FFB60">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:37:17 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E328978-ACC6-4C73-997B-0712EE1BF6B5" referredColumn="11E7C5E9-FB9F-6BBF-5F93-402B0D52C7FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="132A7BBB-8A43-CA90-4EBC-788E9E1D5A6C" name="Staff_PK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:59:12 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2582ABFF-B0BD-4D91-9FDD-0BA9E5CCA05C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A31D77C-41A7-DEB8-5A37-A8B663EE1440" name="Staff_Parking Place_FK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:37:17 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF4E9963-0492-D995-2DE8-B418DA6FFB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
