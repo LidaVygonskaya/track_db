@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4914EF41-309D-0775-B707-4650452D92BD" name="Car">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:42 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMBER" id="ED478CEC-D813-5A1D-5192-582764A70F33">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:50:50 UTC</createdTime>
+<commentInRDBMS>Номер машины</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARK" id="73A296F3-37A2-AD8E-DC7E-5EB5A5850517">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:50:50 UTC</createdTime>
+<commentInRDBMS>Марка машины</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL" id="D6798485-ADEB-95B1-308D-FCBD1EF16841">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:50:50 UTC</createdTime>
+<commentInRDBMS>Модель машины</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLOUR" id="9CB9ED55-CEC0-2A8D-6399-2210AB4F333A">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:50:50 UTC</createdTime>
+<commentInRDBMS>Цвет машины</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEFECTS" id="72453991-786E-5933-261E-FE8676DE61F3">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:51:29 UTC</createdTime>
+<commentInRDBMS>Дефекты автомобиля </commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Owner_OWNER_ID" id="6AE3B2FA-681A-5F23-AA23-E0B54A9B06AB">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:34:07 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parking Place_NUMBER" id="C49E97A5-10BF-A620-B501-7E201AFAD4F8">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:39:55 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8F82969-8F9B-E608-0835-32D6BE68793B" referredColumn="11E7C5E9-FB9F-6BBF-5F93-402B0D52C7FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0557C44A-044A-B1E9-ED67-DF9A9C8847F6" name="CAR_PK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:50:50 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED478CEC-D813-5A1D-5192-582764A70F33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E3D65C8-303C-0F7F-00DB-978EEA8DB4CF" name="Car_Parking Place_FK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:39:55 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C49E97A5-10BF-A620-B501-7E201AFAD4F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

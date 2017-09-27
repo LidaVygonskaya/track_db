@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="196504FE-05EA-F23B-1B92-7427B45DB24B" name="Owner">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:44:46 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>Ow</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LAST_NAME" id="993F1590-56FB-FA7B-9718-D2883E68738A">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:03 UTC</createdTime>
+<commentInRDBMS>Фамилия</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="34C64D85-F2AA-F354-50CC-101C008068FA">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:03 UTC</createdTime>
+<commentInRDBMS>Имя</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURNAME" id="81FDABEA-8EE1-261C-3B4B-8362DC9CDFA3">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:03 UTC</createdTime>
+<commentInRDBMS>Отчество</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="95347418-DA41-71E5-2C8F-A87F954761A9">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:03 UTC</createdTime>
+<commentInRDBMS>Телфон</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESS" id="8D3DA91B-E9F0-CD4B-6532-1D7F5720A310">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:03 UTC</createdTime>
+<commentInRDBMS>Адресс владельца</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNER_ID" id="1017ABC1-BC2A-2E78-8E09-C650D9212B34">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:03 UTC</createdTime>
+<commentInRDBMS>ID владельца</commentInRDBMS>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car_NUMBER" id="04DFC372-C00C-F07E-CA1E-788EC94FD2F1">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:35:05 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3E4A6AD-C876-3EB0-CB0A-30375585644A" referredColumn="ED478CEC-D813-5A1D-5192-582764A70F33"/>
+</associations>
+</Column>
+<Column name="Parking Place_NUMBER" id="C2A0240A-6C73-3E43-A024-9B32931B1BCE">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:37:49 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76D8B150-CF48-3F3A-E1AA-74D20CDEDFAB" referredColumn="11E7C5E9-FB9F-6BBF-5F93-402B0D52C7FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CD38A4A-E5B5-4747-BBC8-6E2E14F48ED1" name="Owner_PK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 16:49:22 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1017ABC1-BC2A-2E78-8E09-C650D9212B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1F5BB34-EB47-4B7B-CE42-57401FA4326C" name="Owner_Parking Place_FK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-19 17:37:49 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A0240A-6C73-3E43-A024-9B32931B1BCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03EFE63B-BBB8-534F-E3D9-0D70BEC28BB9" name="Owner_Car_FK">
+<createdBy>lida</createdBy>
+<createdTime>2017-09-20 15:20:51 UTC</createdTime>
+<ownerDesignName>Logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04DFC372-C00C-F07E-CA1E-788EC94FD2F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
